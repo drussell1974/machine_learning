@@ -6,8 +6,10 @@ mkdir -p $ML_PATH
 echo "upgrading pip..."
 pip3 install --upgrade pip
 
-echo "Creating virtual environment..."
-cd $ML_PATH
+echo "Installing virtual environment"
+pip3 install --user -upgrade virtualenv
+
+echo "Creating virtual environment..."cd $ML_PATH
 virtualenv env
 source env/bin/activate
 
