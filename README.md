@@ -6,6 +6,7 @@ Geron, A. (2017). Hands-on Machine Learning with Scikit-learn and TensorFlow: Co
 1. Create a environment variable for directory.
 
 export ML_PATH="$HOME/dev/machine_learning"
+
 mkdir -p $ML_PATH
 
 2. Upgrade pip
@@ -15,12 +16,15 @@ sudo pip3 install --upgrade pip
 3. Install the virtual environment
 
 sudo pip install --user virtualenv
+
 export PATH="/home/pi/.local/bin"
 
 4. Create the virtual environment
 
 cd $ML_PATH
+
 virtualenv env
+
 source env/bin/activate
 
 5. Install jupyter and other libraries (I did this individually so I could address any potential errors for each install)
