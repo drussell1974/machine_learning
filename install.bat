@@ -9,6 +9,7 @@ pip3 install --upgrade pip
 echo "Creating virtual environment..."
 cd $ML_PATH
 virtualenv env
+source env/bin/activate
 
 echo "Installing jupyter and other libraries"
 pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn
