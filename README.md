@@ -27,7 +27,7 @@ virtualenv env
 
 source env/bin/activate
 
-5. Install jupyter and other libraries (I installed each package individually so I could address any potential errors for each install)
+5. Install jupyter and other libraries
 
 sudo pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn
 
