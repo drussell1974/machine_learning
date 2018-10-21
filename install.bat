@@ -4,10 +4,10 @@ export ML_PATH="$HOME/dev/machine_learning"
 mkdir -p $ML_PATH
 
 echo "upgrading pip..."
-sudo ip3 install --upgrade pip
+sudo pip3 install --upgrade pip
 
 echo "Installing virtual environment"
-sudo pip3 install --user -upgrade virtualenv
+sudo pip install --user virtualenv
 
 echo "Creating virtual environment..."
 cd $ML_PATH
