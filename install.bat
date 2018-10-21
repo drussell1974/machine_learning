@@ -8,6 +8,7 @@ sudo pip3 install --upgrade pip
 
 echo "Installing virtual environment"
 sudo pip install --user virtualenv
+export PATH="/home/pi/.local/bin"
 
 echo "Creating virtual environment..."
 cd $ML_PATH
