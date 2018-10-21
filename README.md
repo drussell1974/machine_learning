@@ -29,7 +29,7 @@ source env/bin/activate
 
 5. Install jupyter and other libraries
 
-sudo pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn
+sudo pip3 install --upgrade --user jupyter matplotlib numpy pandas scipy scikit-learn
 
 6. Check installations (note: scikit-learn ins sklearn)
 
