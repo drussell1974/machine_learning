@@ -31,7 +31,7 @@ source env/bin/activate
 
 sudo pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn
 
-6. Check installations
+6. Check installations (note: scikit-learn ins sklearn)
 
-sudo python3 -c "import jupyter, matplotlib, numpy, pandas, scipy, scikit-learn"
+sudo python3 -c "import jupyter, matplotlib, numpy, pandas, scipy, sklearn"
 
