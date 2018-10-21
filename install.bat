@@ -9,7 +9,8 @@ sudo ip3 install --upgrade pip
 echo "Installing virtual environment"
 sudo pip3 install --user -upgrade virtualenv
 
-echo "Creating virtual environment..."cd $ML_PATH
+echo "Creating virtual environment..."
+cd $ML_PATH
 virtualenv env
 source env/bin/activate
 
